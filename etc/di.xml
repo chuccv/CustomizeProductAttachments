@@ -28,4 +28,7 @@
     <preference for="Mageplaza\ProductAttachments\Helper\Data"
                 type="Mageplaza\CustomizeProductAttachments\Helper\Data"/>
 
+    <preference for="Mageplaza\ProductAttachments\Block\Product\Attachments"
+                type="Mageplaza\CustomizeProductAttachments\Block\Product\Attachments"/>
+
 </config>

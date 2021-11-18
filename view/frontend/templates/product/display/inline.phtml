@@ -175,7 +175,7 @@ $groupValues = [];
                         <?php if (in_array((string)$block->getCustomerGroup(), $allowedCustomerGroups, true)) : ?>
                             <?php
                             $productId = $item->getData('entity_id');
-                            if ($block->getProductId() !== $productId)
+                            if ($block->getProductId() && $block->getProductId() !== $productId)
                                 $data = $block->getMpAttributeValue($productId);
                             else {
                                 $data['size'] = "";

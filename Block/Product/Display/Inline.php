@@ -25,7 +25,7 @@ namespace Mageplaza\CustomizeProductAttachments\Block\Product\Display;
  * Class Inline
  * @package Mageplaza\CustomizeProductAttachments\Block\Product\Display
  */
-class Inline extends \Mageplaza\ProductAttachments\Block\Product\Display\Inline
+class Inline extends \Mageplaza\CustomizeProductAttachments\Block\Product\Attachments
 {
     protected $_template = 'Mageplaza_CustomizeProductAttachments::product/display/inline.phtml';
 }

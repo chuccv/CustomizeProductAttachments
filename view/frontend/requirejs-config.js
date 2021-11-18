@@ -22,10 +22,10 @@ var config = {
     config: {
         mixins: {
             'Magento_Swatches/js/swatch-renderer': {
-                'Mageplaza_ProductAttachments/js/swatch-renderer-mixins': true
+                'Mageplaza_CustomizeProductAttachments/js/swatch-renderer-mixins': true
             },
             'Magento_ConfigurableProduct/js/configurable': {
-                'Mageplaza_ProductAttachments/js/preselect-mixins': true
+                'Mageplaza_CustomizeProductAttachments/js/preselect-mixins': true
             }
         }
     }
