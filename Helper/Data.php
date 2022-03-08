@@ -77,4 +77,5 @@ class Data extends \Mageplaza\ProductAttachments\Helper\Data
     }
     //dddd
     //EE
+    //VV
 }
