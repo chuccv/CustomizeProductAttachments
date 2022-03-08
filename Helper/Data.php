@@ -76,4 +76,5 @@ class Data extends \Mageplaza\ProductAttachments\Helper\Data
         return $fileCollection;
     }
     //dddd
+    //EE
 }
